@@ -1,0 +1,22 @@
+{
+  "name": "commerce-app",
+  "version": "1.0.0",
+  "description": "MERN Shopping Cart App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenijames/e-commerce.git"
+  },
+  "author": "Paul Ijames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenijames/e-commerce/issues"
+  },
+  "homepage": "https://github.com/Stevenijames/e-commerce#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
