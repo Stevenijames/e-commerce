@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "MERN Shopping Cart App",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend1/server",
+    "server": "nodemon backend1/server",
+    "client": "npm start --prefix frontend1",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,12 @@
   },
   "homepage": "https://github.com/Stevenijames/e-commerce#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "concurrently": "^6.3.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
